@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        nav{
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding-left: 540px;
+            display: flex;
+            align-items: right;
+            justify-content: space-between;
+            
+        }
+        nav ul li{
+            list-style: none;
+            display: inline-block;
+            margin-left: 40px;
+            text-align: right;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: aliceblue;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 30px;
+        }
+        a:hover{
+            color: darkkhaki;
+        }
+        div{
+            text-align: center;
+            margin: 0;
+            padding: 160px;
+            font-size: 50px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: aliceblue;
+        }
+        .v1{
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-height: 100%;
+            min-width: 100%;
+            height: auto;
+            width: auto;
+            z-index: -999;
+        }
+        button{
+            font-size: 20px;
+            color: aliceblue;
+            background: transparent;
+            padding: 16px;
+            border-radius: 20px;
+            border: 1ps solid white;
+        }
+        button a{
+            text-decoration: none;
+            color: aliceblue;
+        }
+        h1:hover{
+            color: darkkhaki;
+        }
+        
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">CONTACT US</a></li>
+            <li><a href="#">HIGHLIGHTS</a></li>
+           
+            
+        </ul>
+    </nav>
+    <div>
+        <h1>MALPHE BEACH</h1>
+        <video autoplay loop muted class="v1">
+            <source src="seavideo.mp4" type="video/mp4">
+        </video>
+        <button><a href="https://youtu.be/rn_yZj1xI24">Explore</a></button>
+    </div>
+</body>
+</html>
